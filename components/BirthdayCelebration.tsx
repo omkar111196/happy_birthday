@@ -94,8 +94,8 @@ export default function BirthdayCelebration() {
     setModalContent(
       <div className={styles.modal}>
         <div className={styles.cake}>
-          <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cake.jpg-MTxQQWVbziAcpo9H0FnOcDFd2ZCeef.jpeg" alt="Birthday Cake" className={styles.cakeImage} />
-          <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/knife-iDGWlqi8yi8uq182I08AId24UZ5BLj.png" alt="Knife" className={styles.knife} onClick={cutCake} />
+          <img src="https://raw.githubusercontent.com/omkar111196/happy_birthday/refs/heads/main/uploads/cake.jpg" alt="Birthday Cake" className={styles.cakeImage} />
+          <img src="https://raw.githubusercontent.com/omkar111196/happy_birthday/refs/heads/main/uploads/knife.png" alt="Knife" className={styles.knife} onClick={cutCake} />
         </div>
         <h3>Click on the knife to cut the cake!</h3>
       </div>
@@ -128,7 +128,7 @@ export default function BirthdayCelebration() {
   return (
     <div className={styles.container}>
       <audio id="background-music" loop autoPlay>
-        <source src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/happy-birthday-audio-IEPie7EGIROUFTFMXTS0o20NMT70a8.mp3" type="audio/mp3" />
+        <source src="https://raw.githubusercontent.com/omkar111196/happy_birthday/refs/heads/main/uploads/happy-birthday-audio.mp3" type="audio/mp3" />
         Your browser does not support the audio element.
       </audio>
       <div className={styles.backgroundElements}></div>
